@@ -2,7 +2,7 @@ var vp=document.getElementById("villa");
 var papel=vp.getContext("2d");
 var mapa="tile.png";
 
-var imagen=new Image();
+var fondo=new Image();
 fondo.src=mapa;
 fondo.addEventListener("load",dibujar);
 
