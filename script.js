@@ -33,7 +33,12 @@ function dibujar(){
     papel.drawImage(fondo.imagen,0,0);
   }
   if(vaca.cargaOK==true){
-    papel.drawImage(vaca.imagen,100,100);
+    for(var v=0;v<10;v++){
+      var x=aleatorio(0,420);
+      var y=aleatorio(0,420);
+      papel.drawImage(vaca.imagen,x,y);
+    }
+
   }
 }
 
